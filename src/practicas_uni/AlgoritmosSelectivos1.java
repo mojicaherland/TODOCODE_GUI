@@ -2,7 +2,7 @@ package practicas_uni;
 
 public class AlgoritmosSelectivos1 {
     public static void main(String[] args) {
-        System.out.println(ejer9(-1));
+        System.out.println(ejer10(45, 10.00f));
     }
 
     //1. leer 2 números diferentes y encontrar el número mayor.
@@ -123,12 +123,25 @@ public class AlgoritmosSelectivos1 {
             subTotal = 50;
         } else if (numeroDeHijos > 1 && numeroDeHijos < 5) {
             subTotal = 40 * numeroDeHijos;
-        } else if (numeroDeHijos>=5) {
+        } else if (numeroDeHijos >= 5) {
             subTotal = 35 * numeroDeHijos;
-        }else{
+        } else {
             System.out.println("Numero de hijos incorrecto");
         }
         return subTotal;
     }
 
+    //10.. A un trabajador le pagan según sus horas y una tarifa de pago por horas. si la cantidad de horas
+    //trabajadas es mayor a 40 horas. la tarifa se incrementa en un 50% para las horas extras. calcular el
+    //salario del trabajador dadas las horas trabajadas y la tarifa
+    public static float ejer10(int cantidadHoras, float tarifaHora) {
+        float sueldoTotal;
+        if (cantidadHoras > 40) {
+                        //sueldo sin horas + sueldo con horas extras
+            sueldoTotal = (cantidadHoras-(cantidadHoras-40)) + (1);
+        } else {
+            sueldoTotal = cantidadHoras * tarifaHora;
+        }
+        return sueldoTotal;
+    }
 }
