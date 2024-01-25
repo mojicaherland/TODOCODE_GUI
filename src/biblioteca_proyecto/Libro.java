@@ -1,9 +1,10 @@
 package biblioteca_proyecto;
 
 public class Libro {
+
     public String titulo;
     public String autor;
-    public String anioPublicacion;
+    public int anioPublicacion;
     public enum EstadoLibro{
         disponible,
         prestado,
@@ -17,7 +18,7 @@ public class Libro {
     public Libro() {
     }
 
-    public Libro(String titulo, String autor, String anioPublicacion) {
+    public Libro(String titulo, String autor, int anioPublicacion) {
         this.titulo = titulo;
         this.autor = autor;
         this.anioPublicacion = anioPublicacion;
@@ -40,11 +41,11 @@ public class Libro {
         this.autor = autor;
     }
 
-    public String getAnioPublicacion() {
+    public int getAnioPublicacion() {
         return anioPublicacion;
     }
 
-    public void setAnioPublicacion(String anioPublicacion) {
+    public void setAnioPublicacion(int anioPublicacion) {
         this.anioPublicacion = anioPublicacion;
     }
 
