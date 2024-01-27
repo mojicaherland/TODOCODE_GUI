@@ -1,8 +1,10 @@
 package practicas_uni;
 
+import java.sql.SQLOutput;
+
 public class AlgoritmosSelectivos1 {
     public static void main(String[] args) {
-        System.out.println(ejer10(45, 10.00f));
+        ejer14("auto", 200, 3);
     }
 
     //1. leer 2 números diferentes y encontrar el número mayor.
@@ -137,11 +139,69 @@ public class AlgoritmosSelectivos1 {
     public static float ejer10(int cantidadHoras, float tarifaHora) {
         float sueldoTotal;
         if (cantidadHoras > 40) {
-                        //sueldo sin horas + sueldo con horas extras
-            sueldoTotal = (cantidadHoras-(cantidadHoras-40)) + (1);
+            //sueldo sin horas + sueldo con horas extras
+            sueldoTotal = (cantidadHoras - (cantidadHoras - 40)) + (1);
         } else {
             sueldoTotal = cantidadHoras * tarifaHora;
         }
         return sueldoTotal;
+    }
+
+    //11. A un trabajador A un trabajador le descuentan de su sueldo el 10% si su sueldo es menor o igual a 1000. por
+    //encima de 1000 y hasta 2000 el 5% del adicional, y por encima de 2000 el 3% del adicional. calcular
+    //el descuento y sueldo neto que recibe el trabajador dado su sueldo.
+    public static float ejer11(float sueldoTrabajador) {
+        if (sueldoTrabajador < 1000) {
+            sueldoTrabajador = sueldoTrabajador - (sueldoTrabajador * 0.10f);
+        } else if (sueldoTrabajador > 1000 && sueldoTrabajador <= 2000) {
+            sueldoTrabajador = sueldoTrabajador - (sueldoTrabajador * 0.05f);
+        } else if (sueldoTrabajador > 2000) {
+            sueldoTrabajador = sueldoTrabajador - (sueldoTrabajador * 0.03f);
+        }
+        return sueldoTrabajador;
+    }
+
+    //12.Dado un monto calcular el descuento considerando que por encima de 100 el descuento es el 10% y
+    //por debajo de 100 el descuento es el 2%.
+    public static float ejer12(int monto) {
+        float descuento;
+        if (monto >= 100) {
+            descuento = monto * 0.10f;
+        } else {
+            descuento = monto * 0.02f;
+        }
+        return descuento;
+    }
+
+    //13.  Hacer un algoritmo que calcule el total a pagar por la compra de camisas. Si se compran tres camisas
+    //o mas, se aplica un descuento del 20% sobre el total de la compra y si son menos de tres camisas
+    //un descuento del 10%
+    public static float ejer13(int cantidadCamisas, float montoTotalCamisas) {
+        if (cantidadCamisas >= 3) {
+            montoTotalCamisas = montoTotalCamisas - (montoTotalCamisas * 0.20f);
+        } else {
+            montoTotalCamisas = montoTotalCamisas - (montoTotalCamisas * 0.10f);
+        }
+        return montoTotalCamisas;
+    }
+
+    //14. Se trata de escribir el algoritmo que permita emitir la factura correspondiente a una compra de un
+    //artículo determinado, del que se adquieren una o varias unidades. El IVA es del 15% y si el precio
+    //bruto (precio venta mas IVA) es mayor de 500 Bs. se debe realizar un descuento del 5%.
+    public static void ejer14(String nombreArticulo, float precioArticulo, int cantidadArticulo) {
+        float montoSinIva, montoConIva, descuento = 0;
+        montoSinIva = cantidadArticulo * precioArticulo;  //600
+        montoConIva = (cantidadArticulo * precioArticulo) + (cantidadArticulo * precioArticulo) * 0.15f; //preciobruto
+        if (montoConIva >= 500) {
+            descuento = (montoConIva) - (montoConIva * 0.05f);
+        }
+        System.out.println("----------------FACTURA--------------------");
+        System.out.println("Nombre del articulo : " + nombreArticulo);
+        System.out.println("Cantidad del articulo : " + cantidadArticulo);
+        System.out.println("Precio del articulo : " + precioArticulo);
+        System.out.println("Monto Total sin Iva : " + montoSinIva);
+        System.out.println("Monto Total con Iva : " + montoConIva);
+        System.out.println("Monto Total con Iva y Descuento : " + descuento);
+        System.out.println("-------------------------------------------");
     }
 }

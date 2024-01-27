@@ -6,31 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="efb8aea6-6c88-4d1d-9c8f-76aa5c808de4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/Encapsulamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/Encapsulamiento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases_abstractas/Abstracta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases_abstractas/Abstracta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases_abstractas/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases_abstractas/Circulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases_abstractas/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases_abstractas/Cuadrado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases_abstractas/Dibujable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases_abstractas/Dibujable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases_abstractas/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases_abstractas/Figura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases_abstractas/Rotable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases_abstractas/Rotable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/juego_ninjas/logica/EjercicioIntegrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_ninjas/logica/EjercicioIntegrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_ninjas/logica/IGenjutsu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_ninjas/logica/IGenjutsu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_ninjas/logica/INinjutsu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_ninjas/logica/INinjutsu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_ninjas/logica/ITaijutsu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_ninjas/logica/ITaijutsu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_ninjas/logica/Naruto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_ninjas/logica/Naruto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/juego_ninjas/logica/Ninja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_ninjas/logica/Ninja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_ninjas/logica/Sasuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_ninjas/logica/Sasuke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_pokemon/logica/Bulbasur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_pokemon/logica/Bulbasur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_pokemon/logica/Charmander.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_pokemon/logica/Charmander.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_pokemon/logica/EjercicioIntegrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_pokemon/logica/EjercicioIntegrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_pokemon/logica/IAgua.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_pokemon/logica/IAgua.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_pokemon/logica/IElectrico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_pokemon/logica/IElectrico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_pokemon/logica/IFuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_pokemon/logica/IFuego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_pokemon/logica/IPlanta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_pokemon/logica/IPlanta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_pokemon/logica/Pikachu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_pokemon/logica/Pikachu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_pokemon/logica/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_pokemon/logica/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_pokemon/logica/Squirtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_pokemon/logica/Squirtle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practicas_uni/AlgoritmosSelectivos1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practicas_uni/AlgoritmosSelectivos1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,38 +35,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AlgoritmosSelectivos1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjercicioIntegrador.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Encapsulamiento.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Poo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practicas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE&quot;: &quot;right&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;204&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE&quot;: &quot;left&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;180&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/TODOCODEGUI&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TODOCODEGUI/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlgoritmosSelectivos1.executor": "Run",
+    "Application.EjercicioIntegrador.executor": "Run",
+    "Application.Encapsulamiento.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Poo.executor": "Run",
+    "Application.Practicas.executor": "Run",
+    "Application.Test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE": "right",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "204",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "left",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "180",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/TODOCODEGUI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/TODOCODEGUI/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -127,7 +105,7 @@
       <workItem from="1706281569483" duration="20000" />
       <workItem from="1706363210149" duration="979000" />
       <workItem from="1706364502629" duration="4482000" />
-      <workItem from="1706380757190" duration="465000" />
+      <workItem from="1706380757190" duration="6898000" />
     </task>
     <servers />
   </component>
