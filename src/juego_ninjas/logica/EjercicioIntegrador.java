@@ -1,4 +1,4 @@
-package juego_ninjas;
+package juego_ninjas.logica;
 
 public class EjercicioIntegrador {
 }

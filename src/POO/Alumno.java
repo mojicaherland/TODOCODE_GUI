@@ -1,9 +1,11 @@
 package POO;
 
+// cuando se usa el metodo protected? --> cuando se crea la clase madre y la clase hija
+// pueda acceder a los metodos o atributos de la clase madre
 public class Alumno {
-    int id;
-    String nombre;
-    String apellido;
+    private int id;
+    private String nombre;
+    private String apellido;
 
     //Constructores
     public Alumno(){}// constructor vacio sirve para cuando no haya datos
