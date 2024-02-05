@@ -44,4 +44,13 @@ public class Matrices {
         mostrarMatriz(matriz);
     }
     //carga randomicamente
+    public static void cargarMatrizRandomicamente(int[][] matriz) {
+        for (int fila = 0; fila < matriz.length; fila++) {
+            for (int columna = 0; columna < matriz[fila].length; columna++) {
+                matriz[fila][columna] = Vectores.generaNumeroRandom(30,1);
+            }
+        }
+        mostrarMatriz(matriz);
+    }
+
 }

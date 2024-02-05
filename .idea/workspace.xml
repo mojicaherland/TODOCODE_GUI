@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efb8aea6-6c88-4d1d-9c8f-76aa5c808de4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Estructura_de_Datos/Matrices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estructura_de_Datos/Vectores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practicas_uni/AlgoritmosSelectivos1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practicas_uni/AlgoritmosSelectivos1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practicas_uni/Practicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practicas_uni/Practicas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Estructura_de_Datos/Matrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Estructura_de_Datos/Matrices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +112,7 @@
       <workItem from="1706707441712" duration="2801000" />
       <workItem from="1706710296429" duration="3847000" />
       <workItem from="1706971189316" duration="14000" />
-      <workItem from="1707143086061" duration="3961000" />
+      <workItem from="1707143086061" duration="4156000" />
     </task>
     <servers />
   </component>
