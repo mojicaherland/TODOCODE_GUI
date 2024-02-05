@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efb8aea6-6c88-4d1d-9c8f-76aa5c808de4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Estructura_de_Datos/Matrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estructura_de_Datos/Vectores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_ninjas/logica/EjercicioIntegrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_ninjas/logica/EjercicioIntegrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juego_ninjas/logica/Ninja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juego_ninjas/logica/Ninja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practicas_uni/AlgoritmosSelectivos1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practicas_uni/AlgoritmosSelectivos1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practicas_uni/Practicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practicas_uni/Practicas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,9 +42,11 @@
     "Application.EjercicioIntegrador.executor": "Run",
     "Application.Encapsulamiento.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Matrices.executor": "Run",
     "Application.Poo.executor": "Run",
     "Application.Practicas.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.Vectores.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE": "right",
@@ -105,7 +108,15 @@
       <workItem from="1706281569483" duration="20000" />
       <workItem from="1706363210149" duration="979000" />
       <workItem from="1706364502629" duration="4482000" />
-      <workItem from="1706380757190" duration="6898000" />
+      <workItem from="1706380757190" duration="9165000" />
+      <workItem from="1706409464214" duration="649000" />
+      <workItem from="1706535116000" duration="1739000" />
+      <workItem from="1706536907712" duration="4608000" />
+      <workItem from="1706707121056" duration="283000" />
+      <workItem from="1706707441712" duration="2801000" />
+      <workItem from="1706710296429" duration="3847000" />
+      <workItem from="1706971189316" duration="14000" />
+      <workItem from="1707143086061" duration="3961000" />
     </task>
     <servers />
   </component>

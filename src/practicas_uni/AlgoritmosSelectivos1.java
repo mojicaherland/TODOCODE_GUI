@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 
 public class AlgoritmosSelectivos1 {
     public static void main(String[] args) {
-        ejer14("auto", 200, 3);
+        System.out.println(ejer15(110, 'M'));
     }
 
     //1. leer 2 números diferentes y encontrar el número mayor.
@@ -203,5 +203,30 @@ public class AlgoritmosSelectivos1 {
         System.out.println("Monto Total con Iva : " + montoConIva);
         System.out.println("Monto Total con Iva y Descuento : " + descuento);
         System.out.println("-------------------------------------------");
+    }
+
+    //15. Hacer un programa que permita calcular el peso promedio de una persona, si el usuario selecciona el
+    //sexo e introduce el peso, calcular con cuanto está excedido de peso si lo normal para sexo masculino
+    //es 90 kg. y para sexo femenino lo normal es 75 Kg
+    public static float ejer15(float pesoUsuario, char sexoUsuario) {
+        final int pesoNormalHombre = 90;
+        final int pesoNormalMujer = 75;
+        float pesoExceso = 0, pesoProm;
+        if ((pesoUsuario >= 0) && (sexoUsuario == 'M' || sexoUsuario == 'm')) {
+            pesoProm = (pesoUsuario + pesoNormalHombre) / 2;
+            pesoExceso = pesoUsuario - pesoProm;
+        } else if ((pesoUsuario >= 0) && (sexoUsuario == 'F' || sexoUsuario == 'f')) {
+            pesoProm = (pesoUsuario + pesoNormalMujer) / 2;
+            pesoExceso = pesoUsuario - pesoProm;
+        }
+        return pesoExceso;
+    }
+    //16. Hacer un programa para introducir 3 números por teclado y mostrar el número mayor o si son iguales
+
+    //17.. Un hombre desea saber cuánto dinero se genera por concepto de intereses sobre la cantidad que
+    //tiene en inversión en el banco. El decidirá reinvertir los intereses siempre y cuando estos excedan
+    //a $7000, y en ese caso desea saber cuánto dinero tendrá finalmente en su cuenta
+    public static float ejer17(float dineroUsuario) {
+        return 0;
     }
 }
