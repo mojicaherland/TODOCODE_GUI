@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 
 public class AlgoritmosSelectivos1 {
     public static void main(String[] args) {
-        System.out.println(ejer15(110, 'M'));
+        ejer21("Apple Wacht",(byte)01,500);
     }
 
     //1. leer 2 números diferentes y encontrar el número mayor.
@@ -229,4 +229,71 @@ public class AlgoritmosSelectivos1 {
     public static float ejer17(float dineroUsuario) {
         return 0;
     }
+
+    //18. En un almacén se hace un 20% de descuento a los clientes cuya compra supere los $1000 ¿Cuál
+    //será la cantidad que pagara una persona por su compra?
+    public static float ejer18(float cantidadCompra) {
+        if (cantidadCompra >= 1000) {
+            cantidadCompra = cantidadCompra - (cantidadCompra * 0.20f);
+        }
+        return cantidadCompra;
+    }
+
+    //19.Un obrero necesita calcular su salario semanal, el cual se obtiene de la sig. manera: Si trabaja 40
+    //horas o menos se le paga $16 por hora. Si trabaja más de 40 horas se le paga $16 por cada una
+    //de las primeras 40 horas y $20 por cada hora extra
+
+    //20. Una persona enferma, que pesa 70 kg, se encuentra en reposo y desea saber cuántas calorías
+    //consume su cuerpo durantetodo el tiempo que realice una misma actividad. Las actividades que
+    //tiene permitido realizar son únicamente dormir o estar sentado en reposo. Los datos que tiene
+    //son que estando dormido consume 1.08 calorías por minuto y estando sentado en reposo
+    //consume 1.66 calorías por minuto.
+
+    //Metodo Auxiliar --> convertir horas en minutos
+    public static int convertir(int cantidadHoras) {
+        return cantidadHoras * 60;
+    }
+
+    public static float ejer20(String estadoPersona, int cantidadMinutos) {
+        float cantidadTotalCaloriasGastadas = 0;
+        if (estadoPersona.toLowerCase().equals("dormir")) {
+            cantidadTotalCaloriasGastadas = 1.08f * cantidadMinutos;
+        } else if (estadoPersona.toLowerCase().equals("sentado")) {
+            cantidadTotalCaloriasGastadas = 1.66f * cantidadMinutos;
+        }
+        return cantidadTotalCaloriasGastadas;
+    }
+
+    //21.. Hacer un algoritmo que imprima el nombre de un artículo, clave, precio original y su precio con
+    //descuento. El descuento lo hace en base a la clave, si la clave es 01 el descuento es del 10% y si
+    //la clave es 02 el descuento en del 20% (solo existen dos claves).
+    public static void ejer21(String nombreArticulo, byte clave, int precio) {
+        float precioDescuento = 0;
+        if (clave == 01) {
+            precioDescuento = precio - (precio * 0.10f);
+        } else if (clave == 02) {
+            precioDescuento = precio - (precio * 0.20f);
+        }
+        System.out.println("--------------------------");
+        System.out.println("Nombre Articulo: " + nombreArticulo);
+        System.out.println("Clave: " + clave);
+        System.out.println("Precio Original: " + precio);
+        System.out.println("Precio con Descuento: " + precioDescuento);
+        System.out.println("---------------------------");
+    }
+
+    //22. Hacer un algoritmo que calcule el total a pagar por la compra de camisas. Si se compran tres
+    //camisas o mas se aplica un descuento del 20% sobre el total de la compra y si son menos de tres
+    //camisas un descuento del 10%
+    public static void ejer22(int cantidadCamisas, float precioCamisa) {
+        float montoTotal = cantidadCamisas * precioCamisa;
+        if (cantidadCamisas >= 3) {
+            montoTotal = montoTotal - (montoTotal * 0.20f);
+        } else {
+            montoTotal = montoTotal - (montoTotal * 0.10f);
+        }
+        System.out.println("Monto Total a Pagar: " + montoTotal);
+    }
+
+
 }
