@@ -37,13 +37,37 @@ public class Numeros {
     }
 
     // Ejercicio 6: Calcula el factorial de un número ingresado por el usuario.
+    public static int factorial(int num) {
+        int fact = 1;
+        for (int i = 1; i <= num; i++) {
+            fact = fact * i;
+        }
+        return fact;
+    }
 
     // Ejercicio 7: Calcula la potencia de un número ingresado por el usuario.
-
+    public static int potencia(int num, int pot) {
+        int res = 1;
+        for (int i = 1; i <= pot; i++) {
+            res = res * num;
+        }
+        return res;
+    }
+    public static float potencia2(int numero,int potencia){
+        return (float) Math.pow(numero, potencia);
+    }
     // Ejercicio 8: Calcula la raíz cuadrada de un número ingresado por el usuario.
-
+    public static float raizCuadrada(float numero){
+        return (float) Math.sqrt(numero);
+    }
     // Ejercicio 9: Verifica si un número ingresado por el usuario es par o impar.
-
+    public static void parImpar(int numero){
+        if(numero%2==0){
+            System.out.println("El número es par");
+        }else {
+            System.out.println("El número es impar");
+        }
+    }
     // Ejercicio 10: Verifica si un número ingresado por el usuario es primo.
 
     // Ejercicio 11: Genera una secuencia de Fibonacci hasta un número ingresado por
