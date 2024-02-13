@@ -42,6 +42,7 @@
     &quot;Application.Encapsulamiento.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Matrices.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Numeros.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Poo.executor&quot;: &quot;Run&quot;,
     &quot;Application.Practicas.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test.executor&quot;: &quot;Run&quot;,
@@ -144,12 +145,27 @@
       <workItem from="1707589200463" duration="416000" />
       <workItem from="1707589627392" duration="48000" />
       <workItem from="1707589695182" duration="1644000" />
-      <workItem from="1707591768574" duration="220000" />
+      <workItem from="1707591768574" duration="482000" />
+      <workItem from="1707835437796" duration="629000" />
+      <workItem from="1707853361280" duration="3133000" />
+      <workItem from="1707856541007" duration="1000" />
+      <workItem from="1707856550775" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practicas/Numeros.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

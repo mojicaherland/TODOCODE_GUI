@@ -35,6 +35,9 @@ class NumerosTest {
     public void testRaizCuadrada() {
         assertEquals(4, Numeros.raizCuadrada(16));
     }
-
+    @Test
+    public void testNumPerfecto(){
+        assertEquals(true, Numeros.verifNumPerfecto(6));
+    }
 
 }
