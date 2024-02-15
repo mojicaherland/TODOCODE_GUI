@@ -144,4 +144,5 @@ public class Numeros {
     // tiempo ingresados por el usuario.
 
     // Ejercicio 20: Convierte un número decimal ingresado por el usuario a binario.
+
 }
