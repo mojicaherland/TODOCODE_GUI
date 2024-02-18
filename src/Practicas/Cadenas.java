@@ -1,11 +1,12 @@
 package Practicas;
 
 import java.security.PublicKey;
+import java.security.Signature;
 import java.sql.SQLOutput;
 
 public class Cadenas {
     public static void main(String[] args) {
-        System.out.println(cadPalMayus("hola mundo"));
+        System.out.println(cadenaDuplicada("hola"));
     }
 
     //1. Crear una función que reciba una cadena y devuelva la misma cadena en mayúsculas.
@@ -24,8 +25,12 @@ public class Cadenas {
     }
 
     //4. Crear una función que reciba una cadena y devuelva la cadena invertida.
-    public static String cadInv(String cadena) {
-        return "";
+    public static StringBuilder cadInv(String cadena) {
+        StringBuilder cadenaInvertida = new StringBuilder();
+        for (int i = cadena.length() - 1; i >= 0; i--) {
+            cadenaInvertida.append(cadena.charAt(i));
+        }
+        return cadenaInvertida;
     }
 
     //version recursiva
@@ -78,15 +83,108 @@ public class Cadenas {
         }
         return String.join(" ", palabras);
     }
-    //          8. Crear una función que reciba una cadena y devuelva true si la cadena es un palíndromo y false en caso contrario.
-    //9. Crear una función que reciba una cadena y devuelva la cadena con todas las vocales reemplazadas por asteriscos.
-    //           10. Crear una función que reciba una cadena y devuelva la cadena con todas las consonantes reemplazadas por guiones.
-    //         11. Crear una función que reciba una cadena y devuelva la cadena con todas las letras reemplazadas por su posición en el alfabeto.
-    //       12. Crear una función que reciba una cadena y devuelva la cadena con todas las letras duplicadas.
-    //     13. Crear una función que reciba una cadena y devuelva la cadena con todas las letras en orden alfabético.
-    //    14. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras en orden alfabético.
-    //     15. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras de longitud par en mayúsculas y las palabras de longitud impar en minúsculas.
-    //    16. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras de longitud par invertidas.
+
+    // 8. Crear una función que reciba una cadena y devuelva true si la cadena es un palíndromo y false en caso contrario.
+    public static boolean palindromo(String cadena) { //usando un proceso recursivo
+        String cadenaInvertida = cadInvRec(cadena);
+        if (cadenaInvertida.equals(cadena)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static boolean palindroma(String cadena) {
+        StringBuilder cadenaInvertida = cadInv(cadena);
+        if (cadena.equals(cadenaInvertida.toString())) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    //9. Crear una función que reciba una cadena y
+    // devuelva la cadena con todas las vocales reemplazadas por asteriscos.
+    //Funcion auxiliar
+    public static boolean esVocal(char vocal) {
+        final String esVoca = "aeiou";
+        return esVoca.contains(Character.toString(Character.toLowerCase(vocal)));
+    }
+
+    public static String cadenaSinVocales(String cadena) {
+        for (int i = 0; i < cadena.length(); i++) {
+            if (esVocal(cadena.charAt(i))) {
+                cadena = cadena.replace(cadena.charAt(i), '*');
+            }
+        }
+        return cadena;
+    }
+    // 10. Crear una función que reciba una cadena
+    // y devuelva la cadena con todas las consonantes reemplazadas por guiones.
+
+    //Metodo aux
+    public static boolean esConsonante(char letra) {
+        final String consonantes = "bcdfghjklmnpqrstvxyzwy";
+        return consonantes.contains(Character.toString(Character.toLowerCase(letra)));
+    }
+
+    public static String cadenaSinConsonantes(String cadena) {
+        for (int i = 0; i < cadena.length(); i++) {
+            if (esConsonante(cadena.charAt(i))) {
+                cadena = cadena.replace(cadena.charAt(i), '-');
+            }
+        }
+        return cadena;
+    }
+
+    //11. Crear una función que reciba una cadena
+    // y devuelva la cadena con todas las letras reemplazadas por su posición en el alfabeto.
+    public static String cadenaNumeros(String cadena) {
+        StringBuilder cadenaAux = new StringBuilder();
+        for (char caracter : cadena.toCharArray()) {
+            if (Character.isLetter(caracter)) {
+                int pos = Character.toLowerCase(caracter) - 'a' + 1;
+                cadenaAux.append(pos);
+            } else {
+                cadenaAux.append(caracter);
+            }
+        }
+        return cadenaAux.toString();
+    }
+
+    //12. Crear una función que reciba una cadena
+    // y devuelva la cadena con todas las letras duplicadas.
+    public static String cadenaDuplicada(String cadena) {
+        StringBuilder cadAux = new StringBuilder();//es como la clase string sin limitaciones
+        for (char caracter : cadena.toCharArray()) {
+            if (Character.isLetter(caracter)) {
+                cadAux.append(caracter);
+                cadAux.append(caracter);
+            }
+        }
+        return cadAux.toString();
+    }
+
+    //13. Crear una función que reciba una cadena
+    // y devuelva la cadena con todas las letras en orden alfabético.
+    public static String cadenaAlfabeticamentes(String cadena) {
+        StringBuilder cadAux = new StringBuilder();
+        char[] vecCaracteres = cadena.toCharArray();
+        for (int i = 0; i < vecCaracteres.length; i++) {
+
+        }
+        return "";
+    }
+    // 14. Crear una función que reciba una cadena
+    // y devuelva la cadena con todas las palabras en orden alfabético.
+
+    // 15. Crear una función que reciba una cadena y devuelva
+    // la cadena con todas las palabras de longitud par en mayúsculas
+    // y las palabras de longitud impar en minúsculas.
+
+    // 16. Crear una función que reciba una cadena y devuelva
+    //  la cadena con todas las palabras de longitud par invertidas.
+
     //17. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras de longitud impar invertidas.
     //18. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras que comienzan con una vocal en mayúsculas.
     //           19. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras que comienzan con una consonante en minúsculas.
