@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Vectores {
     public static void main(String[] args) {
         int[] vector = new int[10];
-        cargarVecRan(vector);
+        //cargarVecRan(vector);
+        cargarVecMan(vector);
         mostarVec(vector);
-        System.out.println(eleMin(vector));
+        buscarEle(vector,5);
     }
 
     //----Metodos auxiliares----
@@ -80,4 +81,15 @@ public class Vectores {
         }
         return min;
     }
+    //4. Buscar un elemento específico en un array.
+
+    //forma mia
+    public static void buscarEle(int[] vector,int eleABuscar){
+        for (int i = 0; i < vector.length;i++){
+            if (vector[i] == eleABuscar){
+                System.out.println(vector[i]);
+            }
+        }
+    }
+    //algoritmo de busqueda --> x
 }
