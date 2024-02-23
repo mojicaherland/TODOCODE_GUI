@@ -4,12 +4,17 @@ package Practicas;
 
 public class Numeros {
     public static void main(String[] args) {
-        System.out.println(verifNumPerfecto(6));
+        System.out.println(ejerazar(10,10,10,10));
     }
 
     // Ejercicio 1: Suma dos números ingresados por el usuario.
     public static int suma(int num1, int num2) {
         return num1 + num2;
+    }
+
+    //ejerciicio al azar
+    public static int ejerazar(int num1, int num2, int num3, int num4) {
+        return num1 - num2 * num3 + num4;
     }
 
     // Ejercicio 2: Resta dos números ingresados por el usuario.
