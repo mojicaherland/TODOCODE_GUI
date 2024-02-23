@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efb8aea6-6c88-4d1d-9c8f-76aa5c808de4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/MainPoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/herencia/Consultor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/herencia/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/herencia/Herencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/herencia/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/herenciaPracticaAnimal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/herenciaPracticaAnimal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/herenciaPracticaAnimal/Perro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/herencia/Jefe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practicas/Numeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practicas/Numeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/POO_APRENDIENDO/herencia/Herencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/herencia/Herencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/POO_APRENDIENDO/herenciaPracticaAnimal/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/herenciaPracticaAnimal/Perro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +171,7 @@
       <workItem from="1708549072066" duration="43000" />
       <workItem from="1708551722874" duration="3000" />
       <workItem from="1708607965608" duration="60000" />
-      <workItem from="1708713347798" duration="5833000" />
+      <workItem from="1708713347798" duration="6519000" />
     </task>
     <servers />
   </component>

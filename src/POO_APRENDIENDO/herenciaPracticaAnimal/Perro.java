@@ -18,4 +18,9 @@ public class Perro extends Animal {
     public void setPeso(float peso) {
         this.peso = peso;
     }
+
+    //Metodos
+    public static void ladrar() {
+        System.out.println("*Ladrando");
+    }
 }
