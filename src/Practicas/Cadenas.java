@@ -6,7 +6,7 @@ import java.sql.SQLOutput;
 
 public class Cadenas {
     public static void main(String[] args) {
-        System.out.println(cadenaDuplicada("hola"));
+        System.out.println(palabraMinus("ARBOL Binario"));
     }
 
     //1. Crear una función que reciba una cadena y devuelva la misma cadena en mayúsculas.
@@ -187,6 +187,50 @@ public class Cadenas {
 
     //17. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras de longitud impar invertidas.
     //18. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras que comienzan con una vocal en mayúsculas.
-    //           19. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras que comienzan con una consonante en minúsculas.
-    //          20. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras que terminan con una vocal duplicadas.
+    // 19. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras que comienzan con una consonante en minúsculas.
+    //20. Crear una función que reciba una cadena y devuelva la cadena con todas las palabras que terminan con una vocal duplicadas.
+
+    //Crear una función que reciba una cadena
+    // y devuelva la cadena con todas las palabras de longitud par en minúsculas y las palabras
+    // de longitud impar en mayúsculas.
+    public static String mayusMinus(String cadena) {
+        String[] vectorPalabras = cadena.split(" ");
+        for (int i = 0; i < vectorPalabras.length; i++) {
+            if (vectorPalabras[i].length() % 2 == 0) {
+                vectorPalabras[i] = vectorPalabras[i].toLowerCase();
+            } else {
+                vectorPalabras[i] = vectorPalabras[i].toUpperCase();
+            }
+        }
+        return String.join(" ", vectorPalabras);
+    }
+
+    /*
+        Crear una función que reciba una cadena
+        y devuelva la cadena con todas las palabras
+        de longitud par no invertidas.
+    */
+    public static String invertirLongImpar(String cadena) {
+        String[] vectorPalabras = cadena.split(" ");
+        for (int i = 0; i < vectorPalabras.length; i++) {
+            if (vectorPalabras[i].length() % 2 == 1) {
+                vectorPalabras[i] = String.valueOf(cadInv(vectorPalabras[i].toString()));
+            }
+        }
+        return String.join(" ", vectorPalabras);
+    }
+
+    /*
+        Crear una función que reciba una cadena y devuelva la cadena con todas las palabras
+         que comienzan con una vocal en minúsculas.
+    */
+    public static String palabraMinus(String cadena) {
+        String[] vecPalabras = cadena.split(" ");
+        for (int i = 0; i < vecPalabras.length; i++) {
+            if (esVocal(vecPalabras[i].charAt(0))) {
+                vecPalabras[i] = vecPalabras[i].toLowerCase();
+            }
+        }
+        return String.join(" ", vecPalabras);
+    }
 }

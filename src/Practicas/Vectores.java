@@ -10,7 +10,7 @@ public class Vectores {
         //cargarVecMan(vector);
         mostarVec(vector);
         mostarVec(vector2);
-        ejer2_4(vector,vector2);
+        ejer2_4(vector, vector2);
     }
 
     //----Metodos auxiliares----
@@ -168,6 +168,8 @@ public class Vectores {
 
     //Seleccion
     public static void SeleccionSort(int[] vector) {
-
+        for (int i = 0; i < vector.length; i++) {
+            System.out.println("hola");
+        }
     }
 }

@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efb8aea6-6c88-4d1d-9c8f-76aa5c808de4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Formulario/FormVeterinaria.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Formulario/FormVeterinaria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO_APRENDIENDO/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO_APRENDIENDO/MainPoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO_APRENDIENDO/MainPoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practicas/Cadenas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practicas/Cadenas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practicas/Vectores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practicas/Vectores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,50 +37,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlgoritmosSelectivos1.executor": "Run",
-    "Application.Cadenas.executor": "Run",
-    "Application.EjercicioIntegrador.executor": "Run",
-    "Application.Encapsulamiento.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainPoo.executor": "Run",
-    "Application.Matrices.executor": "Run",
-    "Application.Numeros.executor": "Run",
-    "Application.Poo.executor": "Run",
-    "Application.Practicas.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Vectores.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.NumerosTest.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE": "right",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "204",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "left",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "180",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/TODOCODEGUI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/TODOCODEGUI/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlgoritmosSelectivos1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Cadenas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjercicioIntegrador.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Encapsulamiento.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainPoo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matrices.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Numeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Poo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practicas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Vectores.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.NumerosTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE&quot;: &quot;right&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;204&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE&quot;: &quot;left&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;180&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/TODOCODEGUI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TODOCODEGUI/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -170,7 +172,25 @@
       <workItem from="1708549072066" duration="43000" />
       <workItem from="1708551722874" duration="3000" />
       <workItem from="1708607965608" duration="60000" />
-      <workItem from="1708713347798" duration="7997000" />
+      <workItem from="1708713347798" duration="8231000" />
+      <workItem from="1708797053248" duration="6000" />
+      <workItem from="1708871628901" duration="26000" />
+      <workItem from="1708872345278" duration="1063000" />
+      <workItem from="1708954389715" duration="1215000" />
+      <workItem from="1708956863475" duration="596000" />
+      <workItem from="1708977347779" duration="1219000" />
+      <workItem from="1708980695316" duration="292000" />
+      <workItem from="1708999772191" duration="299000" />
+      <workItem from="1709002158661" duration="518000" />
+      <workItem from="1709041389879" duration="3461000" />
+      <workItem from="1709127819733" duration="1232000" />
+      <workItem from="1709144106906" duration="1405000" />
+      <workItem from="1709235898609" duration="173000" />
+      <workItem from="1709236090179" duration="1855000" />
+      <workItem from="1709241162223" duration="26000" />
+      <workItem from="1709241197676" duration="129000" />
+      <workItem from="1709241380526" duration="49000" />
+      <workItem from="1709241659903" duration="73000" />
     </task>
     <servers />
   </component>
