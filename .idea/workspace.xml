@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efb8aea6-6c88-4d1d-9c8f-76aa5c808de4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Formulario/FormVeterinaria.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Formulario/FormVeterinaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProgramacionATS/Matriz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProgramacionATS/Vector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practicas/Cadenas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practicas/Cadenas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practicas/Vectores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practicas/Vectores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Formulario/FormVeterinaria.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Formulario/FormVeterinaria.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     &quot;Application.Poo.executor&quot;: &quot;Run&quot;,
     &quot;Application.Practicas.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Vector.executor&quot;: &quot;Run&quot;,
     &quot;Application.Vectores.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;JUnit.NumerosTest.executor&quot;: &quot;Run&quot;,
@@ -191,6 +192,8 @@
       <workItem from="1709241197676" duration="129000" />
       <workItem from="1709241380526" duration="49000" />
       <workItem from="1709241659903" duration="73000" />
+      <workItem from="1709298627398" duration="3738000" />
+      <workItem from="1709329312165" duration="199000" />
     </task>
     <servers />
   </component>
