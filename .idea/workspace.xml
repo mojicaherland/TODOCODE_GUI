@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efb8aea6-6c88-4d1d-9c8f-76aa5c808de4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProgramacionATS/Matriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProgramacionATS/Vector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Formulario/FormVeterinaria.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Formulario/FormVeterinaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/herencia/Herencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/herencia/Herencia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +190,8 @@
       <workItem from="1709241380526" duration="49000" />
       <workItem from="1709241659903" duration="73000" />
       <workItem from="1709298627398" duration="3738000" />
-      <workItem from="1709329312165" duration="199000" />
+      <workItem from="1709329312165" duration="310000" />
+      <workItem from="1709581129201" duration="162000" />
     </task>
     <servers />
   </component>
